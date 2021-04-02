@@ -51,7 +51,7 @@ body {
     margin-right: auto;
   }
   .navHeader {
-    margin: 80px 0 100px;
+    margin: 100px 0 100px;
   }
 }
 
@@ -75,9 +75,9 @@ body {
   padding: 0 25px;
   border: none;
   border-radius: 10px;
-  background: #0a56b0;
+  background: #306b67;
   color: #ddd;
-  font-size: 18px;
+  font-size: 22px;
 }
 .navMain {
   max-width: 900px;
@@ -115,7 +115,7 @@ body {
   background: white;
   margin-bottom: 10px;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 20px 0;
   position: relative;
   cursor: pointer;
@@ -130,8 +130,10 @@ body {
   text-transform: uppercase;
 }
 .siteList .site > .link {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 5px;
+  color: #306b67;
+  font-weight: bold;
 }
 
 .siteList .site > .closeIcon {
@@ -153,13 +155,14 @@ body {
 
 .siteList .addButton {
   width: 160px;
-
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 15px;
 }
 .siteList .addButton .icon {
   width: 70px;
@@ -174,6 +177,8 @@ body {
 }
 
 .siteList .addButton .icon-Text {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 5px;
+  color: #306b67;
+  font-weight: bold;
 }
