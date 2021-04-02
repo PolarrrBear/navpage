@@ -181,4 +181,4 @@ window.onbeforeunload = function () {
   localStorage.setItem('hmap', hashSave);
 };
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=/main.c2ae1167.js.map
+//# sourceMappingURL=main.c2ae1167.js.map
