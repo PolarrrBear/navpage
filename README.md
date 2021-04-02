@@ -1,6 +1,6 @@
 # NavPage
 
-导航首页
+[导航首页](https://polarrrrbearrr.github.io/navpage/dist/index.html)
 
 ## 开发
 
