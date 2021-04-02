@@ -1,6 +1,12 @@
 # NavPage
 
+
 [导航首页](https://polarrrrbearrr.github.io/navpage/dist/index.html)
+
+* 默认搜索引擎为百度
+* 监听键盘事件，敲下对应方块显示字母=>打开该页面
+* 使用localStorage存储
+
 
 ## 开发
 
