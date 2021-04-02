@@ -129,8 +129,14 @@ var hashMap = hmapObject || [{
   logo: 'G',
   url: 'https://github.com/.com/'
 }, {
-  logo: 'S',
-  url: 'https://stackoverflow.com'
+  logo: 'Z',
+  url: 'https://www.zhihu.com/'
+}, {
+  logo: 'c',
+  url: 'https://cn.vuejs.org/'
+}, {
+  logo: 'r',
+  url: 'https://react.docschina.org/'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -181,4 +187,4 @@ window.onbeforeunload = function () {
   localStorage.setItem('hmap', hashSave);
 };
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.c2ae1167.js.map
+//# sourceMappingURL=main.b6718f80.js.map

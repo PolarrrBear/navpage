@@ -1,12 +1,10 @@
 # NavPage
 
-
 ## [导航首页](https://polarrrrbearrr.github.io/navpage/dist/index.html)
 
-* 默认搜索引擎为百度
-* 监听键盘事件，敲下对应方块显示字母=>打开该页面
-* 使用localStorage存储
-
+- 默认搜索引擎为百度
+- 监听键盘事件，敲下对应方块显示字母=>打开该页面
+- 使用 localStorage 存储
 
 ## 开发
 
@@ -25,5 +23,6 @@ parcel build src/index.html  --no-minify
 ```
 
 ```
-(option)parcel build src/index.html  --no-minify --public-url ./
+(option)
+parcel build src/index.html  --no-minify --public-url ./
 ```
