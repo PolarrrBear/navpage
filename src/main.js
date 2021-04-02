@@ -4,10 +4,10 @@ const hmap = localStorage.getItem('hmap')
 const hmapObject = JSON.parse(hmap)
 const hashMap = hmapObject || [
     { logo: 'B', url: 'https://bilibili.com' },
-    { logo: 'G', url: 'https://github.com/.com/' },
-    { logo: 'Z', url: 'https://www.zhihu.com/' },
-    { logo: 'c', url: 'https://cn.vuejs.org/' },
-    { logo: 'r', url: 'https://react.docschina.org/' }
+    { logo: 'G', url: 'https://github.com' },
+    { logo: 'Z', url: 'https://www.zhihu.com' },
+    { logo: 'c', url: 'https://cn.vuejs.org' },
+    { logo: 'r', url: 'https://react.docschina.org' }
 
 ]
 
