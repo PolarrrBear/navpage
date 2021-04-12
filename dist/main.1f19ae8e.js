@@ -127,16 +127,16 @@ var hashMap = hmapObject || [{
   url: 'https://bilibili.com'
 }, {
   logo: 'G',
-  url: 'https://github.com/.com/'
+  url: 'https://github.com'
 }, {
   logo: 'Z',
-  url: 'https://www.zhihu.com/'
+  url: 'https://www.zhihu.com'
 }, {
   logo: 'c',
-  url: 'https://cn.vuejs.org/'
+  url: 'https://cn.vuejs.org'
 }, {
   logo: 'r',
-  url: 'https://react.docschina.org/'
+  url: 'https://react.docschina.org'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -214,7 +214,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57674" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52020" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
